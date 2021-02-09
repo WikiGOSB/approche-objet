@@ -23,6 +23,7 @@ public class TestOperation {
             }
            // System.out.println("Le : " + element.getDateOp() +" "+ element.type()+" de : "+ element.getMontant());
             System.out.println("Le : " + element.getDateOp() +", "+ element.type()+" de : "+ res);
+
         }
     }
 
