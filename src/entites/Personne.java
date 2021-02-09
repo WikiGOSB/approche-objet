@@ -1,5 +1,7 @@
 package entites;
 
+import java.util.Locale;
+
 public class Personne {
     private String nom;
     private String prenom;
@@ -33,5 +35,9 @@ public class Personne {
 
     public void setAdresse(AdressePostale adresse) {
         this.adresse = adresse;
+    }
+
+    public void majName (){
+        System.out.println(this.nom.toUpperCase() + this.prenom.toUpperCase());
     }
 }
