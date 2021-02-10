@@ -24,6 +24,7 @@ public class TestPays {
 
             Pays lowerPibTotalCountry = set.stream().min(Comparator.comparingInt(o -> (int) (o.getPibHab() * o.getNbHab()))).get();
             set.remove(lowerPibTotalCountry);
+
             lowerPibTotalCountry.setNom(lowerPibTotalCountry.getNom().toUpperCase());
             set.add(lowerPibTotalCountry);
 
